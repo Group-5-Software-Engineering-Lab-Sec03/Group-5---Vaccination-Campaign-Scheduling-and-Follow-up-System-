@@ -1,0 +1,1 @@
+As part of our Software Engineering coursework, our team is developing and applying structured requirements analysis, version control, and iterative development practices. Vaccination Scheduling is a COVID-19 vaccination scheduling system for campus clinics. Students book dose appointments, staff track records, and the system flags missed second doses to boost completion rates.
