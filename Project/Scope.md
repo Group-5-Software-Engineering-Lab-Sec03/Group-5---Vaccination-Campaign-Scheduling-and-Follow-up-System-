@@ -1,5 +1,7 @@
 # Project Scope: Vaccination Scheduling
 
+For Exercise 2 - Lab 2. This document defines the initial scope of the vaccination campaign scheduling and follow-up system, including the project objective, target users, in-scope and out-of-scope features, and major deliverables.
+
 
 **1. Project Objective**
 The main goal of this project is to create a web-based vaccination scheduling system that makes it easier for patients to book and manage their vaccine appointments. It will also help clinic staff keep track of vaccination records and identify patients who have missed or are due for a follow-up dose. This can help the clinic keep better track of patients and reduce missed doses.
