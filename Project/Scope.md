@@ -1,4 +1,4 @@
-# Project Scope: Vaccination Scheduling
+# Project Scope: Vaccination Campaign Scheduling and Follow-up System
 
 For Exercise 2 - Lab 2. This document defines the initial scope of the vaccination campaign scheduling and follow-up system, including the project objective, target users, in-scope and out-of-scope features, and major deliverables.
 
