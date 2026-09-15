@@ -1,4 +1,6 @@
-Project Scope: Vaccination Scheduling
+#**Project Scope: Vaccination Scheduling**
+
+
 **1. Project Objective**
 The main goal of this project is to create a web-based vaccination scheduling system that makes it easier for patients to book and manage their vaccine appointments. It will also help clinic staff keep track of vaccination records and identify patients who have missed or are due for a follow-up dose. This can help the clinic keep better track of patients and reduce missed doses.
 
