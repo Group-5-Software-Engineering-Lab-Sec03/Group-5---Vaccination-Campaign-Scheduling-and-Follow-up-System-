@@ -35,6 +35,7 @@ Final report and presentation
 
 
 ***References***
+
 The reminder and missed-dose features are based on research from the Agency for Healthcare Research and Quality (AHRQ), which explains that reminder and recall systems can help improve vaccination rates by reminding patients about upcoming appointments and following up after missed appointments.
 
 Agency for Healthcare Research and Quality. Strategy 6R: Reminder Systems for Immunizations and Preventive Services. https://www.ahrq.gov/cahps/quality-improvement/improvement-guide/6-strategies-for-improving/health-promotion-education/strategy6r-reminder-systems.html
