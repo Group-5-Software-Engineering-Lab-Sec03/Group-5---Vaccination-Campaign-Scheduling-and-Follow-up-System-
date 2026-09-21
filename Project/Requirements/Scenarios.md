@@ -1,0 +1,5 @@
+| Scenario ID | Scenario Title | Actor/Stakeholder | Scenario Description |
+|---|---|---|---|
+| S-01 | Incorrect Overdue (False Positive) Flag on Second Dose | Clinic Staff | A patient received their second dose at a different clinic branch, but the record was entered into the system two days late. Before the entry was made, the system automatically flagged the patient as "overdue" and generated a reminder notification. A staff member reviewing the flagged list notices the flag, checks the patient's medical record, finds the dose was already administered, and manually corrects the record by clearing the false positive flag and cancelling the pending reminder. |
+
+**Note on AI tool use (Claude):** This scenario was drafted with the assistance of an AI tool (Claude) to help with the structure and format the content into proper Markdown table syntax, so that it displays correctly as a table when viewed on GitHub or in Markdown preview mode.
