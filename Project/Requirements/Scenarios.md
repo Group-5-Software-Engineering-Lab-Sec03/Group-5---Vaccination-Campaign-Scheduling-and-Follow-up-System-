@@ -12,4 +12,7 @@
 | S-03 | Nurse Administers Dose During Clinic Visit | Nurse | 1. A nurse pulls up a patient's profile during a scheduled visit.<br>2. The nurse checks that the patient is eligible for the next dose (no flagged contraindications, correct interval since last dose).<br>3. The nurse administers the vaccine.<br>4. The nurse logs the batch/lot number and administration site.<br>5. The system updates the patient's vaccination history and automatically schedules the reminder for the next dose if one is required. |
 
 ## Maaziya Contributions
-| S-02 | Patient Books and Manages Vaccine Appointment | Patients | 1. A patient registers an account. 2. The patient searches for available appointment slots for a specific vaccine. 3. The patient books a slot, and the system confirms the booking and updates availability. 4. The patient later needs to reschedule the appointment due to a personal conflict. 5. The system processes the reschedule and reflects the change in the patient's appointment history. |
+
+| Scenario ID | Scenario Title | Actor/Stakeholder | Scenario Description |
+|---|---|---|---|
+| S-02 | Patient Books and Manages Vaccine Appointment | Patients | 1. A patient registers an account.<br>2. The patient searches for available appointment slots for a specific vaccine.<br>3. The patient books a slot, and the system confirms the booking and updates availability.<br>4. The patient later needs to reschedule the appointment due to a personal conflict.<br>5. The system processes the reschedule and reflects the change in the patient's appointment history. |
