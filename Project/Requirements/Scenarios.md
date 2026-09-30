@@ -16,3 +16,9 @@
 | Scenario ID | Scenario Title | Actor/Stakeholder | Scenario Description |
 |---|---|---|---|
 | S-02 | Patient Books and Manages Vaccine Appointment | Patients | 1. A patient registers an account.<br>2. The patient searches for available appointment slots for a specific vaccine.<br>3. The patient books a slot, and the system confirms the booking and updates availability.<br>4. The patient later needs to reschedule the appointment due to a personal conflict.<br>5. The system processes the reschedule and reflects the change in the patient's appointment history. |
+
+## Ahmed Contributions
+
+| Scenario ID | Scenario Title | Actor/Stakeholder | Scenario Description |
+|---|---|---|---|
+| S-04 | Patient Receives Appointment and Overdue Reminders | Patients | 1. Patient has an upcoming second-dose appointment.<br>2. He receives an automated reminder 3 days in advance.<br>3. Another patient missed their window for a dose and was flagged overdue.<br>4. They receive a reminder to book a follow-up appointment.<br>5. The system logs these reminder events against both patients' records. |
