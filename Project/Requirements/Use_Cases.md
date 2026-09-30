@@ -33,6 +33,13 @@
 | UC-09 | Reschedule Appointment | Patient | A patient selects an existing upcoming appointment and moves it to a new available slot, cancelling the old one automatically. | Maaziya |
 | UC-10 | View Vaccination History | Patient | A patient views their record of past administered doses and any upcoming scheduled appointments. | Maaziya |
 
+### Use Case Relationships (involving Maaziya's Use Cases)
+
+| Relationship ID | Base Use Case | Related Use Case | Type | Justification |
+|---|---|---|---|---|
+| R-02 | Reschedule Appointment | Book Appointment | `<<include>>` | Rescheduling always requires selecting and confirming a new slot, which is the same core behavior as booking, so it always includes it. |
+
+
 ## Ahmed Contributions
 
 | UC ID | Use Case Name | Primary Actor | Short Description | Contributor |
@@ -42,3 +49,10 @@
 | UC-18 | Manage User Access Roles | Clinic Staff | An admin will assign or modify the role-based permissions for user accounts. | Ahmed |
 | UC-19 | Send Overdue Reminder | Patient | The system sends a reminder to a patient whose dose has been flagged as overdue, prompting them to book a follow-up appointment. | Ahmed |
 | UC-20 | Generate Clinic Report | Clinic Staff | The staff can generate a report summarizing doses that have been given, appointments booked, and overdue patients over a selected period. | Ahmed |
+
+### Use Case Relationships (involving Ahmed's Use Cases)
+
+| Relationship ID | Base Use Case | Related Use Case | Type | Justification |
+|---|---|---|---|---|
+| R-04 | Booking the Appointment | Sending the Appointment Reminder | `<<extend>>` | Sending a reminder is a conditional action that should only happen after booking is confirmed; it is not part of the core booking action. |
+| R-05 | Viewing the Staff Dashboard | Generating the Clinic Report | `<<extend>>` | Generating a report is something optional the staff can do from the dashboard, but it does not happen every time the dashboard is viewed. |
