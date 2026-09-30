@@ -22,3 +22,23 @@
 | R-03 | Administer Vaccine Dose | Verify Patient Eligibility for Dose | `<<include>>` | Administering a dose always requires first verifying eligibility. It is not optional, so it is an include, not an extend. |
 | R-06 | Verify Patient Eligibility for Dose | Defer Vaccine Dose | `<<extend>>` | Deferral only happens when the eligibility check fails or the patient declines. It is conditional, and a successful check never triggers it. |
 | R-07 | Administer Vaccine Dose | Record Adverse Reaction | `<<extend>>` | Most administrations have no reaction, so recording one is optional behavior that occurs only when a reaction is observed. |
+
+## Maaziya Contributions
+
+| UC ID | Use Case Name | Primary Actor | Short Description | Contributor |
+|---|---|---|---|---|
+| UC-06 | Register Patient Account | Patient | A new patient creates an account by providing personal and contact information, which is validated and stored for future logins. | Maaziya |
+| UC-07 | Search Available Appointment Slots | Patient | A patient searches for open appointment slots by vaccine type and preferred date range. | Maaziya |
+| UC-08 | Book Appointment | Patient | A patient selects an available slot and confirms a booking, which updates the system's schedule and sends a confirmation. | Maaziya |
+| UC-09 | Reschedule Appointment | Patient | A patient selects an existing upcoming appointment and moves it to a new available slot, cancelling the old one automatically. | Maaziya |
+| UC-10 | View Vaccination History | Patient | A patient views their record of past administered doses and any upcoming scheduled appointments. | Maaziya |
+
+## Ahmed Contributions
+
+| UC ID | Use Case Name | Primary Actor | Short Description | Contributor |
+|---|---|---|---|---|
+| UC-16 | Send Appointment Reminder | Patient | The system should automatically send a reminder to a patient a certain set number of days before their scheduled appointment. | Ahmed |
+| UC-17 | View Staff Dashboard | Clinic Staff | Staff views a summary of the day's scheduled appointments, which can be filtered by time, name, and vaccine type. | Ahmed |
+| UC-18 | Manage User Access Roles | Clinic Staff | An admin will assign or modify the role-based permissions for user accounts. | Ahmed |
+| UC-19 | Send Overdue Reminder | Patient | The system sends a reminder to a patient whose dose has been flagged as overdue, prompting them to book a follow-up appointment. | Ahmed |
+| UC-20 | Generate Clinic Report | Clinic Staff | The staff can generate a report summarizing doses that have been given, appointments booked, and overdue patients over a selected period. | Ahmed |

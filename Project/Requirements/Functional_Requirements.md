@@ -23,5 +23,15 @@
 | FR-09 | The system shall allow a patient to reschedule an existing appointment to a different available slot. | S-02 - Patients | Maaziya |
 | FR-10 | The system shall allow a patient to view their complete vaccination history, including past and upcoming doses. | S-02 - Patients | Maaziya |
 
+## Ahmed Contributions
+
+| FR ID | Functional Requirement | Source Scenario/Stakeholder | Contributor |
+|---|---|---|---|
+| FR-16 | The system should send a reminder at least 3 days before the patient's upcoming scheduled appointment. | Patients | Ahmed |
+| FR-17 | The system should allow the staff to generate a summary report about the doses administered, appointments booked, and patients currently flagged as overdue within a selected date range. | Clinic Staff | Ahmed |
+| FR-18 | The system should allow the staff to see a dashboard summarizing the day's scheduled appointments, which can be filtered by time and vaccine type. | Clinic Staff | Ahmed |
+| FR-19 | The system should allow a System Admin to assign roles and permissions based on those roles for user accounts. | Clinic Staff | Ahmed |
+| FR-20 | The system should allow a system administrator to assign, change, and delete role-based access for staff user accounts. | Clinic Staff | Ahmed |
+
 
 **Note on AI tool use (Claude):** This functional requirement was drafted with the assistance of an AI tool (Claude) to help with the structure and format the content into proper Markdown table syntax, so that it displays correctly as a table when viewed on GitHub or in Markdown preview mode.
