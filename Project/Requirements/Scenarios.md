@@ -10,3 +10,4 @@
 | Scenario ID | Scenario Title | Actor/Stakeholder | Scenario Description |
 |---|---|---|---|
 | S-03 | Nurse Administers Dose During Clinic Visit | Nurse | 1. A nurse pulls up a patient's profile during a scheduled visit.<br>2. The nurse checks that the patient is eligible for the next dose (no flagged contraindications, correct interval since last dose).<br>3. The nurse administers the vaccine.<br>4. The nurse logs the batch/lot number and administration site.<br>5. The system updates the patient's vaccination history and automatically schedules the reminder for the next dose if one is required. |
+

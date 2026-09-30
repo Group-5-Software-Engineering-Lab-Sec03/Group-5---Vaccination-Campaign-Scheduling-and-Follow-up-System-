@@ -14,3 +14,16 @@
 | NFR-13 | Portability | The nurse workflow shall be fully usable on tablets with a screen of 10 inches or larger, and in the latest two versions of Chrome, Edge, and Safari, without loss of functionality. | Sara |
 | NFR-14 | Performance | The system shall display a patient's profile, vaccination history, and eligibility result to the nurse within 3 seconds of selecting the patient, for 95% of requests under normal load. | Sara |
 | NFR-15 | Security | A nurse's session shall log out automatically after 10 minutes of inactivity, so patient records are not left open on shared clinic devices. | Sara |
+
+
+## Maaziya Contributions
+
+| NFR ID | Category | Non-Functional Requirement | Contributor |
+|---|---|---|---|
+| NFR-06 | Usability | A patient shall be able to complete a full appointment booking in no more than 4 steps from login. | Maaziya |
+| NFR-07 | Performance | Appointment slot search results shall load within 2 seconds under normal load. | Maaziya |
+| NFR-08 | Security | All patient account data and booking information shall be transmitted using encrypted connections. | Maaziya |
+| NFR-09 | Reliability | Appointment booking confirmations shall succeed at a rate of at least 99% under normal system operation. | Maaziya |
+| NFR-10 | Scalability | The booking system shall support at least 200 concurrent active users without performance degradation. | Maaziya |
+
+
