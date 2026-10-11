@@ -1,5 +1,42 @@
+## Saif Almas Contributions
+
 | FR ID | Functional Requirement | Source Scenario/Stakeholder | Contributor |
 |---|---|---|---|
-| FR-01 | The system shall allow clinic staff to manually review and override an automatically generated dose flag that is overdue, with the override reason recorded and the corresponding reminder notification waved. | S-01 - R3 (Risk Register) / Clinic Staff | [Saif Almas] |
+| FR-01 | The system shall allow clinic staff to manually review and override an automatically generated dose flag that is overdue, with the override reason recorded and the corresponding reminder notification waved. | S-01 - R3 (Risk Register) / Clinic Staff | Saif Almas |
+| FR-02 | The system shall allow clinic staff to record an administered vaccine dose against a patient's profile, capturing vaccine type, dose number, batch and lot number, and administration date. | S-01 - Clinic Staff | Saif Almas |
+| FR-03 | The system shall maintain a vaccine reference database storing, for each vaccine type, the number of required doses, the recommended interval between doses, and whether a booster dose is required, so that the flagging engine can apply the correct schedule per vaccine rather than a single fixed interval. | S-01 - Clinic Staff | Saif Almas |
+| FR-04 | The system shall allow a patient or clinic staff to cancel an existing appointment, immediately releasing the slot back into availability for other patients. | S-05 - Patients, Clinic Staff | Saif Almas |
+| FR-05 | The system shall automatically notify the next waitlisted patient for a cancelled slot, if a waitlist exists. | S-05 - Patients | Saif Almas |
+
+## Maaziya Contributions
+
+| FR ID | Functional Requirement | Source Scenario/Stakeholder | Contributor |
+|---|---|---|---|
+| FR-06 | The system shall allow a patient to register an account using personal and contact information. | S-02 - Patients | Maaziya |
+| FR-07 | The system shall allow a patient to search for available appointment slots filtered by vaccine type and date. | S-02 - Patients | Maaziya |
+| FR-08 | The system shall allow a patient to book an appointment for a specific vaccine dose and receive a confirmation. | S-02 - Patients | Maaziya |
+| FR-09 | The system shall allow a patient to reschedule an existing appointment to a different available slot. | S-02 - Patients | Maaziya |
+| FR-10 | The system shall allow a patient to view their complete vaccination history, including past and upcoming doses. | S-02 - Patients | Maaziya |
+
+## Sara Alhammadi Contributions
+
+| FR ID | Functional Requirement | Source Scenario/Stakeholder | Contributor |
+|---|---|---|---|
+| FR-11 | The system shall allow a nurse to verify a patient's identity and dose eligibility (no active contraindications, minimum interval since last dose satisfied) before permitting a dose to be logged as administered. | S-03 – Nurse | Sara |
+| FR-12 | The system shall mark an appointment as "Completed" when a nurse confirms administration, record the nurse's ID, injection site, and timestamp, and schedule the next-dose reminder if the vaccine requires one. | S-03 – Nurse | Sara |
+| FR-13 | The system shall allow a nurse to record a contraindication on a patient's profile (e.g. allergy, pregnancy, immunosuppression), including its type, the affected vaccine(s), and the date recorded, and shall display it as a warning whenever that patient's eligibility is checked. | S-03 – Nurse | Sara |
+| FR-14 | The system shall allow a nurse to defer a scheduled dose when the patient is ineligible or declines, by selecting a deferral reason from a predefined list (or entering free text). The appointment shall then be marked "Deferred" and shall remain in the patient's history. | S-03 – Nurse | Sara |
+| FR-15 | The system shall allow a nurse to record an adverse reaction observed after vaccination, capturing symptoms, severity (mild, moderate, severe), time of onset, and action taken. The reaction shall be linked to the specific dose record and shall be visible in the patient's vaccination history. | S-03 – Nurse | Sara |
+
+## Ahmed Contributions
+
+| FR ID | Functional Requirement | Source Scenario/Stakeholder | Contributor |
+|---|---|---|---|
+| FR-16 | The system should send a reminder at least 3 days before the patient's upcoming scheduled appointment. | Patients | Ahmed |
+| FR-17 | The system should allow the staff to generate a summary report about the doses administered, appointments booked, and patients currently flagged as overdue within a selected date range. | Clinic Staff | Ahmed |
+| FR-18 | The system should allow the staff to see a dashboard summarizing the day's scheduled appointments, which can be filtered by time and vaccine type. | Clinic Staff | Ahmed |
+| FR-19 | The system should allow a System Admin to assign roles and permissions based on those roles for user accounts. | Clinic Staff | Ahmed |
+| FR-20 | The system should allow a system administrator to assign, change, and delete role-based access for staff user accounts. | Clinic Staff | Ahmed |
+
 
 **Note on AI tool use (Claude):** This functional requirement was drafted with the assistance of an AI tool (Claude) to help with the structure and format the content into proper Markdown table syntax, so that it displays correctly as a table when viewed on GitHub or in Markdown preview mode.
