@@ -16,11 +16,11 @@
         <mxCell id="g0s-ASX_FE6svPNIKibi-10" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="CancelAppointment" vertex="1">
           <mxGeometry height="80" width="120" x="270" y="-100" as="geometry" />
         </mxCell>
-        <mxCell id="g0s-ASX_FE6svPNIKibi-11" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="JoinAppointmentWaitlist&lt;div&gt;&lt;br/&gt;&lt;/div&gt;" vertex="1">
+        <mxCell id="g0s-ASX_FE6svPNIKibi-11" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="ManageAppointmentWaitlist&lt;div&gt;&lt;br/&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="80" width="120" x="365" y="-30" as="geometry" />
         </mxCell>
-        <mxCell id="g0s-ASX_FE6svPNIKibi-12" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="LeaveAppointmentWaitlist" vertex="1">
-          <mxGeometry height="80" width="120" x="425" y="60" as="geometry" />
+        <mxCell id="g0s-ASX_FE6svPNIKibi-12" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="ReviewFlaggedPatient" vertex="1">
+          <mxGeometry height="80" width="120" x="150" y="640" as="geometry" />
         </mxCell>
         <mxCell id="g0s-ASX_FE6svPNIKibi-13" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="RegisterPatientAccount" vertex="1">
           <mxGeometry height="80" width="120" x="440" y="150" as="geometry" />
@@ -52,7 +52,7 @@
         <mxCell id="g0s-ASX_FE6svPNIKibi-39" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="StaffDashboard" vertex="1">
           <mxGeometry height="80" width="120" x="390" y="730" as="geometry" />
         </mxCell>
-        <mxCell id="g0s-ASX_FE6svPNIKibi-40" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="MangeUserRoles" vertex="1">
+        <mxCell id="g0s-ASX_FE6svPNIKibi-40" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="ManageUserRoles" vertex="1">
           <mxGeometry height="80" width="120" x="150" y="480" as="geometry" />
         </mxCell>
         <mxCell id="g0s-ASX_FE6svPNIKibi-41" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="GenerateClinicReport&lt;div&gt;&lt;br/&gt;&lt;/div&gt;" vertex="1">
@@ -64,7 +64,7 @@
         <mxCell id="g0s-ASX_FE6svPNIKibi-48" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="VerifyPatientEligibility" vertex="1">
           <mxGeometry height="80" width="120" x="270" y="1290" as="geometry" />
         </mxCell>
-        <mxCell id="g0s-ASX_FE6svPNIKibi-49" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="RecordPatient&lt;div&gt;&lt;br/&gt;&lt;/div&gt;" vertex="1">
+        <mxCell id="g0s-ASX_FE6svPNIKibi-49" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="RecordPatient&lt;br&gt;Contraindication" vertex="1">
           <mxGeometry height="80" width="120" x="210" y="1500" as="geometry" />
         </mxCell>
         <mxCell id="g0s-ASX_FE6svPNIKibi-50" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="DeferVaccine&lt;div&gt;&lt;br/&gt;&lt;/div&gt;" vertex="1">
@@ -97,11 +97,11 @@
             <mxPoint x="10" y="180" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="g0s-ASX_FE6svPNIKibi-66" edge="1" parent="1" source="g0s-ASX_FE6svPNIKibi-5" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" target="g0s-ASX_FE6svPNIKibi-12" value="">
-          <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <mxPoint x="-40" y="240" as="sourcePoint" />
-            <mxPoint x="10" y="190" as="targetPoint" />
-          </mxGeometry>
+        <mxCell id="g0s-ASX_FE6svPNIKibi-66" edge="1" parent="1" source="g0s-ASX_FE6svPNIKibi-6" style="endArrow=none;html=1;rounded=0;" target="g0s-ASX_FE6svPNIKibi-12" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="g0s-ASX_FE6svPNIKibi-98" edge="1" parent="1" source="g0s-ASX_FE6svPNIKibi-36" style="endArrow=classic;html=1;rounded=0;dashed=1;" target="g0s-ASX_FE6svPNIKibi-12" value="&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="g0s-ASX_FE6svPNIKibi-67" edge="1" parent="1" source="g0s-ASX_FE6svPNIKibi-5" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" target="g0s-ASX_FE6svPNIKibi-13" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">

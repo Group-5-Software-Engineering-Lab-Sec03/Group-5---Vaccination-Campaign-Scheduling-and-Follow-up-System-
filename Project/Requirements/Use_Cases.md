@@ -4,8 +4,8 @@
 |---|---|---|---|---|
 | UC-01 | Correct Missed Dose Flag | Clinic Staff | Staff reviews a patient flagged as overdue and verifies the actual dose record. If the flag is a false positive, Clinic Staff overrides it and cancels the associated reminder, else if the flag is a true positive, no action is taken and the reminder proceeds. | Saif Almas |
 | UC-02 | Cancel Appointment | Patient | A patient cancels an upcoming appointment, freeing the slot and triggering the waitlist check. | Saif Almas |
-| UC-03 | Join Appointment Waitlist | Patient | A patient joins a waitlist for a fully booked slot, to be notified automatically if it opens up. | Saif Almas |
-| UC-04 | Leave Appointment Waitlist | Patient | A patient who previously joined a waitlist removes themselves from it before being notified of an open slot. | Saif Almas |
+| UC-03 | Manage Appointment Waitlist | Patient | A patient joins a waitlist for a fully booked slot, to be notified automatically if it opens up, or leaves the waitlist before being notified. | Saif Almas |
+| UC-04 | Review Flagged Patient | Clinic Staff | Staff opens a patient flagged as overdue and reviews the flag details and the patient's dose record to decide whether the flag is correct. If it appears to be a false positive, the staff continues with Correct Missed Dose Flag. | Saif Almas |
 | UC-05 | Missed Appointment | Clinic Staff | Staff marks a patient as a "did not show up" for a missed appointment, which releases the slot and logs the missed visit separately from a cancellation. | Saif Almas |
 
 ### Use Case Relationships (involving Saif's Use Cases)
@@ -55,17 +55,15 @@
 |---|---|---|---|---|
 | UC-16 | Send Appointment Reminder | Patient | The system should automatically send a reminder to a patient a certain set number of days before their scheduled appointment. | Ahmed |
 | UC-17 | View Staff Dashboard | Clinic Staff | Staff views a summary of the day's scheduled appointments, which can be filtered by time, name, and vaccine type. | Ahmed |
-| UC-18 | Manage User Access Roles | Clinic Staff | An admin will assign or modify the role-based permissions for user accounts. | Ahmed |
+| UC-18 | Manage User Access Roles | Clinic Staff | An authorized Clinic Staff member will assign or modify the role-based permissions for user accounts. | Ahmed |
 | UC-19 | Send Overdue Reminder | Patient | The system sends a reminder to a patient whose dose has been flagged as overdue, prompting them to book a follow-up appointment. | Ahmed |
 | UC-20 | Generate Clinic Report | Clinic Staff | The staff can generate a report summarizing doses that have been given, appointments booked, and overdue patients over a selected period. | Ahmed |
 
-<<<<<<< HEAD
 ### Use Case Relationships (involving Ahmed's Use Cases)
 
 | Relationship ID | Base Use Case | Related Use Case | Type | Justification |
 |---|---|---|---|---|
 | R-04 | Booking the Appointment | Sending the Appointment Reminder | `<<extend>>` | Sending a reminder is a conditional action that should only happen after booking is confirmed; it is not part of the core booking action. |
 | R-05 | Viewing the Staff Dashboard | Generating the Clinic Report | `<<extend>>` | Generating a report is something optional the staff can do from the dashboard, but it does not happen every time the dashboard is viewed. |
-=======
+
 **Note on AI tool use (Claude):** This use case was drafted with the assistance of an AI tool (Claude) to help with the structure and format the content into proper Markdown table syntax, so that it displays correctly as a table when viewed on GitHub or in Markdown preview mode.
->>>>>>> a302ad6b6c7d1e11513ccfd76623abe6415bcebd

@@ -36,6 +36,6 @@
 | NFR-17 | Security | The system should only allow role-based access so patients can only view their own records and staff can only access records for patients assigned to them. | Ahmed |
 | NFR-18 | Reliability | Reminder notifications shall be delivered successfully to at least 98% of recipients, with failed deliveries logged and automatically retried once within 24 hours. | Ahmed |
 | NFR-19 | Performance | The system should be able to generate a report covering up to 3 months of data, completing within 5–15 seconds. | Ahmed |
-| NFR-20 | Maintainability | The administrator should be able to update and change user role permissions without requiring a system restart or code deployment, with changes reflected within hours. | Ahmed |
+| NFR-20 | Maintainability | An authorized Clinic Staff member should be able to update and change user role permissions without requiring a system restart or code deployment, with changes reflected within hours. | Ahmed |
 
 **Note on AI tool use (Claude):** This non-functional requirement was drafted with the assistance of an AI tool (Claude) to help with the structure and format the content into proper Markdown table syntax, so that it displays correctly as a table when viewed on GitHub or in Markdown preview mode.
