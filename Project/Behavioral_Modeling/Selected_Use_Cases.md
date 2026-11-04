@@ -9,7 +9,7 @@ Team members: Saif Almas (b00100949), Fathimamaaziya Mansoor (g00099913), Sara A
 | Use Case ID | Use Case Name | Primary Actor | Purpose | Reason for Selection |
 |---|---|---|---|---|
 | UC-02 | Cancel Appointment | Patient | A patient cancels an upcoming appointment. The slot is released immediately and, if a waitlist exists, the next waitlisted patient is notified (FR-04, FR-05). | Core scheduling function that involves five classes (Cancellation, Appointment, AppointmentSlot, Waitlist, Notification) and the Patient actor. It has a natural condition (only a booked appointment can be cancelled), an optional waitlist step and a repeated step if a notification fails. |
-| UC-__ | (partner 1: use case name) | (primary actor) | (purpose) | (reason for selection) |
+| UC-08 | Book Appointment | Patient | A patient picks an available time slot and makes a booking. A time slot becomes unavailable, an Appointment object becomes confirmed and generated, a confirmation message is sent to the patient, and a reminder is scheduled when there are at least 3 days left before an appointment (FR-08, FR-16). | Core functionality and the first increment of the Incremental Model (Process_Model.md). Five classes are involved (Patient, AppointmentSlot, Appointment, Notification, AppointmentReminder), the guard condition is present (the slot should still be available), a retry loop is used when the slot is already booked or a notification can not be sent, and the reminder part is optional (Lab 3 relationship R-04). |
 | UC-__ | (partner 2: use case name) | (primary actor) | (purpose) | (reason for selection) |
 
 **Note on AI tool use (Claude):** An AI tool (Claude) was used to help format this document into proper Markdown table syntax.
