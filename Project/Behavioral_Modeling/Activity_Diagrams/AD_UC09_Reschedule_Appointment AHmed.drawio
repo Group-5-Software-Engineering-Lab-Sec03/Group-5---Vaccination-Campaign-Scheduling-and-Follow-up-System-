@@ -1,0 +1,141 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="UC-09 Reschedule Appointment" id="uc09">
+    <mxGraphModel dx="1394" dy="910" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="n2" parent="1" style="text;html=1;align=center;verticalAlign=middle;fontStyle=1;fontSize=14;" value="UC-09 Reschedule Appointment - UML Activity Diagram (Primary actor: Patient)" vertex="1">
+          <mxGeometry height="30" width="1000" as="geometry" />
+        </mxCell>
+        <mxCell id="n3" parent="1" style="swimlane;html=1;startSize=30;fontStyle=1;fontSize=12;fillColor=#F5F5F5;strokeColor=#333333;swimlaneFillColor=none;" value="Patient" vertex="1">
+          <mxGeometry height="1000" width="200" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="n4" parent="1" style="swimlane;html=1;startSize=30;fontStyle=1;fontSize=12;fillColor=#F5F5F5;strokeColor=#333333;swimlaneFillColor=none;" value="Appointment" vertex="1">
+          <mxGeometry height="1000" width="200" x="200" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="n5" parent="1" style="swimlane;html=1;startSize=30;fontStyle=1;fontSize=12;fillColor=#F5F5F5;strokeColor=#333333;swimlaneFillColor=none;" value="newSlot : AppointmentSlot" vertex="1">
+          <mxGeometry height="1000" width="200" x="400" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="n6" parent="1" style="swimlane;html=1;startSize=30;fontStyle=1;fontSize=12;fillColor=#F5F5F5;strokeColor=#333333;swimlaneFillColor=none;" value="oldSlot : AppointmentSlot" vertex="1">
+          <mxGeometry height="1000" width="200" x="600" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="n7" parent="1" style="swimlane;html=1;startSize=30;fontStyle=1;fontSize=12;fillColor=#F5F5F5;strokeColor=#333333;swimlaneFillColor=none;" value="AppointmentReminder" vertex="1">
+          <mxGeometry height="1000" width="200" x="800" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="n8" parent="1" style="ellipse;html=1;fillColor=#000000;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="20" width="20" x="90" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="n9" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fillColor=#EAF2FB;strokeColor=#2F5D8A;fontSize=11;" value="Select appointment and new slot" vertex="1">
+          <mxGeometry height="40" width="140" x="30" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="n10" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fillColor=#EAF2FB;strokeColor=#2F5D8A;fontSize=11;" value="Request reschedule" vertex="1">
+          <mxGeometry height="40" width="140" x="30" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="n11" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fillColor=#EAF2FB;strokeColor=#2F5D8A;fontSize=11;" value="Process reschedule request" vertex="1">
+          <mxGeometry height="40" width="140" x="230" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="n12" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fillColor=#EAF2FB;strokeColor=#2F5D8A;fontSize=11;" value="Check new slot availability" vertex="1">
+          <mxGeometry height="40" width="140" x="430" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="n13" parent="1" style="rhombus;html=1;fillColor=#FFF2CC;strokeColor=#B38600;fontSize=10;" value="Is the new slot free?" vertex="1">
+          <mxGeometry height="60" width="120" x="440" y="410" as="geometry" />
+        </mxCell>
+        <mxCell id="n14" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fillColor=#EAF2FB;strokeColor=#2F5D8A;fontSize=11;" value="Keep appointment unchanged" vertex="1">
+          <mxGeometry height="40" width="140" x="230" y="500" as="geometry" />
+        </mxCell>
+        <mxCell id="n15" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fillColor=#EAF2FB;strokeColor=#2F5D8A;fontSize=11;" value="Book new slot" vertex="1">
+          <mxGeometry height="40" width="140" x="430" y="510" as="geometry" />
+        </mxCell>
+        <mxCell id="n16" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fillColor=#EAF2FB;strokeColor=#2F5D8A;fontSize=11;" value="Receive reschedule failed message" vertex="1">
+          <mxGeometry height="40" width="140" x="30" y="570" as="geometry" />
+        </mxCell>
+        <mxCell id="n17" parent="1" style="ellipse;shape=endState;html=1;fillColor=#000000;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="24" width="24" x="88" y="640" as="geometry" />
+        </mxCell>
+        <mxCell id="n18" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fillColor=#EAF2FB;strokeColor=#2F5D8A;fontSize=11;" value="Release old slot" vertex="1">
+          <mxGeometry height="40" width="140" x="630" y="580" as="geometry" />
+        </mxCell>
+        <mxCell id="n19" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fillColor=#EAF2FB;strokeColor=#2F5D8A;fontSize=11;" value="Cancel each old reminder" vertex="1">
+          <mxGeometry height="40" width="140" x="830" y="650" as="geometry" />
+        </mxCell>
+        <mxCell id="n20" parent="1" style="rhombus;html=1;fillColor=#FFF2CC;strokeColor=#B38600;fontSize=10;" value="Days until new slot?" vertex="1">
+          <mxGeometry height="60" width="120" x="840" y="720" as="geometry" />
+        </mxCell>
+        <mxCell id="n21" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fillColor=#EAF2FB;strokeColor=#2F5D8A;fontSize=11;" value="Schedule new reminder" vertex="1">
+          <mxGeometry height="40" width="140" x="830" y="810" as="geometry" />
+        </mxCell>
+        <mxCell id="n22" parent="1" style="rhombus;html=1;fillColor=#FFF2CC;strokeColor=#B38600;" value="" vertex="1">
+          <mxGeometry height="30" width="30" x="885" y="880" as="geometry" />
+        </mxCell>
+        <mxCell id="n23" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fillColor=#EAF2FB;strokeColor=#2F5D8A;fontSize=11;" value="Confirm reschedule" vertex="1">
+          <mxGeometry height="40" width="140" x="230" y="875" as="geometry" />
+        </mxCell>
+        <mxCell id="n24" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fillColor=#EAF2FB;strokeColor=#2F5D8A;fontSize=11;" value="Receive reschedule confirmation" vertex="1">
+          <mxGeometry height="40" width="140" x="30" y="875" as="geometry" />
+        </mxCell>
+        <mxCell id="n25" parent="1" style="ellipse;shape=endState;html=1;fillColor=#000000;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="24" width="24" x="88" y="950" as="geometry" />
+        </mxCell>
+        <mxCell id="n26" edge="1" parent="1" source="n8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;fontSize=10;" target="n9" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n27" edge="1" parent="1" source="n9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;fontSize=10;" target="n10" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n28" edge="1" parent="1" source="n10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;fontSize=10;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" target="n11" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n29" edge="1" parent="1" source="n11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;fontSize=10;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" target="n12" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n30" edge="1" parent="1" source="n12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;fontSize=10;" target="n13" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n31" edge="1" parent="1" source="n13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;fontSize=10;exitX=0;exitY=0.5;entryX=0.5;entryY=0;" target="n14" value="[already booked]">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n32" edge="1" parent="1" source="n13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;fontSize=10;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" target="n15" value="[available]">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n33" edge="1" parent="1" source="n14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;fontSize=10;exitX=0;exitY=0.5;entryX=1;entryY=0.5;" target="n16" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n34" edge="1" parent="1" source="n16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;fontSize=10;" target="n17" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n35" edge="1" parent="1" source="n15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;fontSize=10;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" target="n18" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n36" edge="1" parent="1" source="n18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;fontSize=10;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" target="n19" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n37" edge="1" parent="1" source="n19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;fontSize=10;" target="n20" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n38" edge="1" parent="1" source="n20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;fontSize=10;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" target="n21" value="[at least 3 days away]">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n39" edge="1" parent="1" source="n20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;fontSize=10;exitX=1;exitY=0.5;entryX=1;entryY=0.5;" target="n22" value="[less than 3 days away]">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="985" y="750" />
+              <mxPoint x="985" y="895" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="n40" edge="1" parent="1" source="n21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;fontSize=10;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" target="n22" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n41" edge="1" parent="1" source="n22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;fontSize=10;exitX=0;exitY=0.5;entryX=1;entryY=0.5;" target="n23" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n42" edge="1" parent="1" source="n23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;fontSize=10;exitX=0;exitY=0.5;entryX=1;entryY=0.5;" target="n24" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n43" edge="1" parent="1" source="n24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;fontSize=10;" target="n25" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
