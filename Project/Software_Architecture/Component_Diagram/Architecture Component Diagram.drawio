@@ -1,0 +1,518 @@
+<mxfile host="app.diagrams.net" pages="2">
+  <diagram id="p1" name="Component Diagram">
+    <mxGraphModel dx="2102" dy="1173" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1460" pageHeight="1160" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="f2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=3 3;align=right;verticalAlign=top;spacingRight=8;spacingTop=2;fontFamily=Helvetica;fontSize=11;fontStyle=1;labelBackgroundColor=none;" value="Presentation" vertex="1">
+          <mxGeometry height="100" width="1400" x="40" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="f3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=3 3;align=right;verticalAlign=top;spacingRight=8;spacingTop=2;fontFamily=Helvetica;fontSize=11;fontStyle=1;labelBackgroundColor=none;" value="Layer 3" vertex="1">
+          <mxGeometry height="250" width="1400" x="40" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="f4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=3 3;align=right;verticalAlign=top;spacingRight=8;spacingTop=2;fontFamily=Helvetica;fontSize=11;fontStyle=1;labelBackgroundColor=none;" value="Layer 2" vertex="1">
+          <mxGeometry height="270" width="1400" x="40" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="f5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=3 3;align=right;verticalAlign=top;spacingRight=8;spacingTop=2;fontFamily=Helvetica;fontSize=11;fontStyle=1;labelBackgroundColor=none;" value="Layer 1" vertex="1">
+          <mxGeometry height="260" width="1400" x="40" y="710" as="geometry" />
+        </mxCell>
+        <mxCell id="f6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=3 3;align=right;verticalAlign=top;spacingRight=8;spacingTop=2;fontFamily=Helvetica;fontSize=11;fontStyle=1;labelBackgroundColor=none;" value="External" vertex="1">
+          <mxGeometry height="150" width="1400" x="40" y="990" as="geometry" />
+        </mxCell>
+        <mxCell id="WEB" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1.2;fontFamily=Helvetica;verticalAlign=middle;spacingTop=4;labelBackgroundColor=none;" value="&lt;font style=&quot;font-size:10px&quot; color=&quot;#6B7280&quot;&gt;«external»&lt;/font&gt;&lt;br&gt;&lt;b style=&quot;font-size:13px&quot;&gt;Web Client&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size:10px&quot; color=&quot;#6B7280&quot;&gt;browser / tablet&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="360" x="560" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ic_WEB" parent="WEB" style="shape=component;jettyWidth=8;jettyHeight=4;html=1;labelBackgroundColor=none;" value="" vertex="1">
+          <mxGeometry height="14" width="18" x="332" y="8" as="geometry" />
+        </mxCell>
+        <mxCell id="CO3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1.2;fontFamily=Helvetica;verticalAlign=top;spacingTop=4;labelBackgroundColor=none;" value="&lt;font style=&quot;font-size:10px&quot; color=&quot;#6B7280&quot;&gt;«component»&lt;/font&gt;&lt;br&gt;&lt;b style=&quot;font-size:13px&quot;&gt;CO3 Clinical Care&lt;/b&gt;" vertex="1">
+          <mxGeometry height="130" width="480" x="80" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="ic_CO3" parent="CO3" style="shape=component;jettyWidth=8;jettyHeight=4;html=1;labelBackgroundColor=none;" value="" vertex="1">
+          <mxGeometry height="14" width="18" x="452" y="8" as="geometry" />
+        </mxCell>
+        <mxCell id="k9" parent="CO3" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontStyle=0;labelBackgroundColor=none;" value="VaccinationDose" vertex="1">
+          <mxGeometry height="26" width="140" x="15" y="48" as="geometry" />
+        </mxCell>
+        <mxCell id="k10" parent="CO3" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontStyle=0;labelBackgroundColor=none;" value="Contraindication" vertex="1">
+          <mxGeometry height="26" width="140" x="170" y="48" as="geometry" />
+        </mxCell>
+        <mxCell id="k11" parent="CO3" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontStyle=0;labelBackgroundColor=none;" value="Deferral" vertex="1">
+          <mxGeometry height="26" width="140" x="325" y="48" as="geometry" />
+        </mxCell>
+        <mxCell id="k12" parent="CO3" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontStyle=0;labelBackgroundColor=none;" value="EligibilityChecker" vertex="1">
+          <mxGeometry height="26" width="140" x="15" y="84" as="geometry" />
+        </mxCell>
+        <mxCell id="k13" parent="CO3" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontStyle=0;labelBackgroundColor=none;" value="AdverseReaction" vertex="1">
+          <mxGeometry height="26" width="140" x="170" y="84" as="geometry" />
+        </mxCell>
+        <mxCell id="CO5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1.2;fontFamily=Helvetica;verticalAlign=top;spacingTop=4;labelBackgroundColor=none;" value="&lt;font style=&quot;font-size:10px&quot; color=&quot;#6B7280&quot;&gt;«component»&lt;/font&gt;&lt;br&gt;&lt;b style=&quot;font-size:13px&quot;&gt;CO5 Follow-up and Reporting&lt;/b&gt;" vertex="1">
+          <mxGeometry height="100" width="480" x="920" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="ic_CO5" parent="CO5" style="shape=component;jettyWidth=8;jettyHeight=4;html=1;labelBackgroundColor=none;" value="" vertex="1">
+          <mxGeometry height="14" width="18" x="452" y="8" as="geometry" />
+        </mxCell>
+        <mxCell id="k15" parent="CO5" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontStyle=0;labelBackgroundColor=none;" value="OverdueFlag" vertex="1">
+          <mxGeometry height="26" width="140" x="15" y="48" as="geometry" />
+        </mxCell>
+        <mxCell id="k16" parent="CO5" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontStyle=0;labelBackgroundColor=none;" value="Dashboard" vertex="1">
+          <mxGeometry height="26" width="140" x="170" y="48" as="geometry" />
+        </mxCell>
+        <mxCell id="k17" parent="CO5" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontStyle=0;labelBackgroundColor=none;" value="Report" vertex="1">
+          <mxGeometry height="26" width="140" x="325" y="48" as="geometry" />
+        </mxCell>
+        <mxCell id="CO2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1.2;fontFamily=Helvetica;verticalAlign=top;spacingTop=4;labelBackgroundColor=none;" value="&lt;font style=&quot;font-size:10px&quot; color=&quot;#6B7280&quot;&gt;«component»&lt;/font&gt;&lt;br&gt;&lt;b style=&quot;font-size:13px&quot;&gt;CO2 Appointment Scheduling&lt;/b&gt;" vertex="1">
+          <mxGeometry height="130" width="550" x="510" y="510" as="geometry" />
+        </mxCell>
+        <mxCell id="ic_CO2" parent="CO2" style="shape=component;jettyWidth=8;jettyHeight=4;html=1;labelBackgroundColor=none;" value="" vertex="1">
+          <mxGeometry height="14" width="18" x="522" y="8" as="geometry" />
+        </mxCell>
+        <mxCell id="k19" parent="CO2" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontStyle=0;labelBackgroundColor=none;" value="Vaccine" vertex="1">
+          <mxGeometry height="26" width="160" x="15" y="48" as="geometry" />
+        </mxCell>
+        <mxCell id="k20" parent="CO2" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontStyle=0;labelBackgroundColor=none;" value="AppointmentSlot" vertex="1">
+          <mxGeometry height="26" width="160" x="195" y="48" as="geometry" />
+        </mxCell>
+        <mxCell id="k21" parent="CO2" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontStyle=0;labelBackgroundColor=none;" value="Appointment" vertex="1">
+          <mxGeometry height="26" width="160" x="375" y="48" as="geometry" />
+        </mxCell>
+        <mxCell id="k22" parent="CO2" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontStyle=0;labelBackgroundColor=none;" value="Waitlist" vertex="1">
+          <mxGeometry height="26" width="160" x="15" y="84" as="geometry" />
+        </mxCell>
+        <mxCell id="k23" parent="CO2" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontStyle=0;labelBackgroundColor=none;" value="Cancellation" vertex="1">
+          <mxGeometry height="26" width="160" x="195" y="84" as="geometry" />
+        </mxCell>
+        <mxCell id="CO1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1.2;fontFamily=Helvetica;verticalAlign=top;spacingTop=4;labelBackgroundColor=none;" value="&lt;font style=&quot;font-size:10px&quot; color=&quot;#6B7280&quot;&gt;«component»&lt;/font&gt;&lt;br&gt;&lt;b style=&quot;font-size:13px&quot;&gt;CO1 Access Management&lt;/b&gt;" vertex="1">
+          <mxGeometry height="130" width="480" x="80" y="810" as="geometry" />
+        </mxCell>
+        <mxCell id="ic_CO1" parent="CO1" style="shape=component;jettyWidth=8;jettyHeight=4;html=1;labelBackgroundColor=none;" value="" vertex="1">
+          <mxGeometry height="14" width="18" x="452" y="8" as="geometry" />
+        </mxCell>
+        <mxCell id="k25" parent="CO1" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontStyle=2;labelBackgroundColor=none;" value="User" vertex="1">
+          <mxGeometry height="26" width="140" x="15" y="48" as="geometry" />
+        </mxCell>
+        <mxCell id="k26" parent="CO1" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontStyle=0;labelBackgroundColor=none;" value="Role" vertex="1">
+          <mxGeometry height="26" width="140" x="170" y="48" as="geometry" />
+        </mxCell>
+        <mxCell id="k27" parent="CO1" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontStyle=0;labelBackgroundColor=none;" value="Patient" vertex="1">
+          <mxGeometry height="26" width="140" x="325" y="48" as="geometry" />
+        </mxCell>
+        <mxCell id="k28" parent="CO1" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontStyle=0;labelBackgroundColor=none;" value="Nurse" vertex="1">
+          <mxGeometry height="26" width="140" x="15" y="84" as="geometry" />
+        </mxCell>
+        <mxCell id="k29" parent="CO1" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontStyle=0;labelBackgroundColor=none;" value="ClinicStaff" vertex="1">
+          <mxGeometry height="26" width="140" x="170" y="84" as="geometry" />
+        </mxCell>
+        <mxCell id="CO4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1.2;fontFamily=Helvetica;verticalAlign=top;spacingTop=4;labelBackgroundColor=none;" value="&lt;font style=&quot;font-size:10px&quot; color=&quot;#6B7280&quot;&gt;«component»&lt;/font&gt;&lt;br&gt;&lt;b style=&quot;font-size:13px&quot;&gt;CO4 Notification and Reminders&lt;/b&gt;" vertex="1">
+          <mxGeometry height="100" width="540" x="860" y="820" as="geometry" />
+        </mxCell>
+        <mxCell id="ic_CO4" parent="CO4" style="shape=component;jettyWidth=8;jettyHeight=4;html=1;labelBackgroundColor=none;" value="" vertex="1">
+          <mxGeometry height="14" width="18" x="512" y="8" as="geometry" />
+        </mxCell>
+        <mxCell id="k31" parent="CO4" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontStyle=0;labelBackgroundColor=none;" value="Notification" vertex="1">
+          <mxGeometry height="26" width="160" x="10" y="48" as="geometry" />
+        </mxCell>
+        <mxCell id="k32" parent="CO4" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontStyle=0;labelBackgroundColor=none;" value="AppointmentReminder" vertex="1">
+          <mxGeometry height="26" width="160" x="190" y="48" as="geometry" />
+        </mxCell>
+        <mxCell id="k33" parent="CO4" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontStyle=0;labelBackgroundColor=none;" value="OverdueReminder" vertex="1">
+          <mxGeometry height="26" width="160" x="370" y="48" as="geometry" />
+        </mxCell>
+        <mxCell id="DB" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1.2;fontFamily=Helvetica;verticalAlign=middle;spacingTop=4;labelBackgroundColor=none;" value="&lt;font style=&quot;font-size:10px&quot; color=&quot;#6B7280&quot;&gt;«external»&lt;/font&gt;&lt;br&gt;&lt;b style=&quot;font-size:13px&quot;&gt;Relational Database&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size:10px&quot; color=&quot;#6B7280&quot;&gt;users, appointments, vaccination records, vaccine schedules&lt;/font&gt;" vertex="1">
+          <mxGeometry height="70" width="420" x="200" y="1050" as="geometry" />
+        </mxCell>
+        <mxCell id="ic_DB" parent="DB" style="shape=component;jettyWidth=8;jettyHeight=4;html=1;labelBackgroundColor=none;" value="" vertex="1">
+          <mxGeometry height="14" width="18" x="392" y="8" as="geometry" />
+        </mxCell>
+        <mxCell id="GW" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1.2;fontFamily=Helvetica;verticalAlign=middle;spacingTop=4;labelBackgroundColor=none;" value="&lt;font style=&quot;font-size:10px&quot; color=&quot;#6B7280&quot;&gt;«external»&lt;/font&gt;&lt;br&gt;&lt;b style=&quot;font-size:13px&quot;&gt;Email / SMS Gateway&lt;/b&gt;" vertex="1">
+          <mxGeometry height="70" width="340" x="960" y="1050" as="geometry" />
+        </mxCell>
+        <mxCell id="ic_GW" parent="GW" style="shape=component;jettyWidth=8;jettyHeight=4;html=1;labelBackgroundColor=none;" value="" vertex="1">
+          <mxGeometry height="14" width="18" x="312" y="8" as="geometry" />
+        </mxCell>
+        <mxCell id="iElig" parent="1" style="ellipse;html=1;aspect=fixed;strokeWidth=1.2;labelBackgroundColor=none;" value="" vertex="1">
+          <mxGeometry height="14" width="14" x="103" y="193" as="geometry" />
+        </mxCell>
+        <mxCell id="ep1" edge="1" parent="1" source="CO3" style="html=1;rounded=0;jumpStyle=arc;jumpSize=8;strokeWidth=1;exitX=0.0625;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;endArrow=none;labelBackgroundColor=none;fontColor=default;" target="iElig">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lb1" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontStyle=1;spacing=0;labelBackgroundColor=none;" value="IEligibilityCheck" vertex="1">
+          <mxGeometry height="16" width="120" x="121" y="192" as="geometry" />
+        </mxCell>
+        <mxCell id="iDose" parent="1" style="ellipse;html=1;aspect=fixed;strokeWidth=1.2;labelBackgroundColor=none;" value="" vertex="1">
+          <mxGeometry height="14" width="14" x="253" y="193" as="geometry" />
+        </mxCell>
+        <mxCell id="ep2" edge="1" parent="1" source="CO3" style="html=1;rounded=0;jumpStyle=arc;jumpSize=8;strokeWidth=1;exitX=0.375;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;endArrow=none;labelBackgroundColor=none;fontColor=default;" target="iDose">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lb2" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontStyle=1;spacing=0;labelBackgroundColor=none;" value="IDoseRecording" vertex="1">
+          <mxGeometry height="16" width="110" x="271" y="192" as="geometry" />
+        </mxCell>
+        <mxCell id="iClin" parent="1" style="ellipse;html=1;aspect=fixed;strokeWidth=1.2;labelBackgroundColor=none;" value="" vertex="1">
+          <mxGeometry height="14" width="14" x="393" y="193" as="geometry" />
+        </mxCell>
+        <mxCell id="ep3" edge="1" parent="1" source="CO3" style="html=1;rounded=0;jumpStyle=arc;jumpSize=8;strokeWidth=1;exitX=0.6667;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;endArrow=none;labelBackgroundColor=none;fontColor=default;" target="iClin">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lb3" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontStyle=1;spacing=0;labelBackgroundColor=none;" value="IClinicalRecords" vertex="1">
+          <mxGeometry height="16" width="110" x="411" y="192" as="geometry" />
+        </mxCell>
+        <mxCell id="iOver" parent="1" style="ellipse;html=1;aspect=fixed;strokeWidth=1.2;labelBackgroundColor=none;" value="" vertex="1">
+          <mxGeometry height="14" width="14" x="943" y="203" as="geometry" />
+        </mxCell>
+        <mxCell id="ep4" edge="1" parent="1" source="CO5" style="html=1;rounded=0;jumpStyle=arc;jumpSize=8;strokeWidth=1;exitX=0.0625;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;endArrow=none;labelBackgroundColor=none;fontColor=default;" target="iOver">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lb4" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontStyle=1;spacing=0;labelBackgroundColor=none;" value="IOverdueFlagManagement" vertex="1">
+          <mxGeometry height="16" width="160" x="961" y="202" as="geometry" />
+        </mxCell>
+        <mxCell id="iDash" parent="1" style="ellipse;html=1;aspect=fixed;strokeWidth=1.2;labelBackgroundColor=none;" value="" vertex="1">
+          <mxGeometry height="14" width="14" x="1143" y="203" as="geometry" />
+        </mxCell>
+        <mxCell id="ep5" edge="1" parent="1" source="CO5" style="html=1;rounded=0;jumpStyle=arc;jumpSize=8;strokeWidth=1;exitX=0.4792;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;endArrow=none;labelBackgroundColor=none;fontColor=default;" target="iDash">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lb5" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontStyle=1;spacing=0;labelBackgroundColor=none;" value="IDashboardView" vertex="1">
+          <mxGeometry height="16" width="100" x="1161" y="202" as="geometry" />
+        </mxCell>
+        <mxCell id="iRep" parent="1" style="ellipse;html=1;aspect=fixed;strokeWidth=1.2;labelBackgroundColor=none;" value="" vertex="1">
+          <mxGeometry height="14" width="14" x="1273" y="203" as="geometry" />
+        </mxCell>
+        <mxCell id="ep6" edge="1" parent="1" source="CO5" style="html=1;rounded=0;jumpStyle=arc;jumpSize=8;strokeWidth=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;endArrow=none;labelBackgroundColor=none;fontColor=default;" target="iRep">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lb6" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontStyle=1;spacing=0;labelBackgroundColor=none;" value="IClinicReporting" vertex="1">
+          <mxGeometry height="16" width="105" x="1291" y="202" as="geometry" />
+        </mxCell>
+        <mxCell id="iVac" parent="1" style="ellipse;html=1;aspect=fixed;strokeWidth=1.2;labelBackgroundColor=none;" value="" vertex="1">
+          <mxGeometry height="14" width="14" x="633" y="463" as="geometry" />
+        </mxCell>
+        <mxCell id="ep7" edge="1" parent="1" source="CO2" style="html=1;rounded=0;jumpStyle=arc;jumpSize=8;strokeWidth=1;exitX=0.2364;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;endArrow=none;labelBackgroundColor=none;fontColor=default;" target="iVac">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lb7" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontStyle=1;spacing=0;labelBackgroundColor=none;" value="IVaccineSchedule" vertex="1">
+          <mxGeometry height="16" width="130" x="575" y="444" as="geometry" />
+        </mxCell>
+        <mxCell id="iStat" parent="1" style="ellipse;html=1;aspect=fixed;strokeWidth=1.2;labelBackgroundColor=none;" value="" vertex="1">
+          <mxGeometry height="14" width="14" x="473" y="568" as="geometry" />
+        </mxCell>
+        <mxCell id="ep8" edge="1" parent="1" source="CO2" style="html=1;rounded=0;jumpStyle=arc;jumpSize=8;strokeWidth=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;labelBackgroundColor=none;fontColor=default;" target="iStat">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lb8" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontStyle=1;spacing=0;labelBackgroundColor=none;" value="IAppointmentStatus" vertex="1">
+          <mxGeometry height="16" width="120" x="352" y="584" as="geometry" />
+        </mxCell>
+        <mxCell id="iSlot" parent="1" style="ellipse;html=1;aspect=fixed;strokeWidth=1.2;labelBackgroundColor=none;" value="" vertex="1">
+          <mxGeometry height="14" width="14" x="1088" y="533" as="geometry" />
+        </mxCell>
+        <mxCell id="ep9" edge="1" parent="1" source="CO2" style="html=1;rounded=0;jumpStyle=arc;jumpSize=8;strokeWidth=1;exitX=1;exitY=0.2308;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;labelBackgroundColor=none;fontColor=default;" target="iSlot">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lb9" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontStyle=1;spacing=0;labelBackgroundColor=none;" value="ISlotSearchAndBooking" vertex="1">
+          <mxGeometry height="16" width="150" x="1106" y="532" as="geometry" />
+        </mxCell>
+        <mxCell id="iAppt" parent="1" style="ellipse;html=1;aspect=fixed;strokeWidth=1.2;labelBackgroundColor=none;" value="" vertex="1">
+          <mxGeometry height="14" width="14" x="1088" y="568" as="geometry" />
+        </mxCell>
+        <mxCell id="ep10" edge="1" parent="1" source="CO2" style="html=1;rounded=0;jumpStyle=arc;jumpSize=8;strokeWidth=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;labelBackgroundColor=none;fontColor=default;" target="iAppt">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lb10" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontStyle=1;spacing=0;labelBackgroundColor=none;" value="IAppointmentManagement" vertex="1">
+          <mxGeometry height="16" width="160" x="1106" y="567" as="geometry" />
+        </mxCell>
+        <mxCell id="iWait" parent="1" style="ellipse;html=1;aspect=fixed;strokeWidth=1.2;labelBackgroundColor=none;" value="" vertex="1">
+          <mxGeometry height="14" width="14" x="1088" y="603" as="geometry" />
+        </mxCell>
+        <mxCell id="ep11" edge="1" parent="1" source="CO2" style="html=1;rounded=0;jumpStyle=arc;jumpSize=8;strokeWidth=1;exitX=1;exitY=0.7692;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;labelBackgroundColor=none;fontColor=default;" target="iWait">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lb11" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontStyle=1;spacing=0;labelBackgroundColor=none;" value="IWaitlistManagement" vertex="1">
+          <mxGeometry height="16" width="140" x="1106" y="602" as="geometry" />
+        </mxCell>
+        <mxCell id="iAuth" parent="1" style="ellipse;html=1;aspect=fixed;strokeWidth=1.2;labelBackgroundColor=none;" value="" vertex="1">
+          <mxGeometry height="14" width="14" x="113" y="773" as="geometry" />
+        </mxCell>
+        <mxCell id="ep12" edge="1" parent="1" source="CO1" style="html=1;rounded=0;jumpStyle=arc;jumpSize=8;strokeWidth=1;exitX=0.0833;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;endArrow=none;labelBackgroundColor=none;fontColor=default;" target="iAuth">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lb12" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontStyle=1;spacing=0;labelBackgroundColor=none;" value="IAuthentication" vertex="1">
+          <mxGeometry height="16" width="100" x="131" y="772" as="geometry" />
+        </mxCell>
+        <mxCell id="iPat" parent="1" style="ellipse;html=1;aspect=fixed;strokeWidth=1.2;labelBackgroundColor=none;" value="" vertex="1">
+          <mxGeometry height="14" width="14" x="243" y="773" as="geometry" />
+        </mxCell>
+        <mxCell id="ep13" edge="1" parent="1" source="CO1" style="html=1;rounded=0;jumpStyle=arc;jumpSize=8;strokeWidth=1;exitX=0.3542;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;endArrow=none;labelBackgroundColor=none;fontColor=default;" target="iPat">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lb13" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontStyle=1;spacing=0;labelBackgroundColor=none;" value="IPatientAccess" vertex="1">
+          <mxGeometry height="16" width="95" x="256" y="791" as="geometry" />
+        </mxCell>
+        <mxCell id="iRole" parent="1" style="ellipse;html=1;aspect=fixed;strokeWidth=1.2;labelBackgroundColor=none;" value="" vertex="1">
+          <mxGeometry height="14" width="14" x="523" y="773" as="geometry" />
+        </mxCell>
+        <mxCell id="ep14" edge="1" parent="1" source="CO1" style="html=1;rounded=0;jumpStyle=arc;jumpSize=8;strokeWidth=1;exitX=0.9375;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;endArrow=none;labelBackgroundColor=none;fontColor=default;" target="iRole">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lb14" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontStyle=1;spacing=0;labelBackgroundColor=none;" value="IRoleManagement" vertex="1">
+          <mxGeometry height="16" width="120" x="400" y="772" as="geometry" />
+        </mxCell>
+        <mxCell id="iRem" parent="1" style="ellipse;html=1;aspect=fixed;strokeWidth=1.2;labelBackgroundColor=none;" value="" vertex="1">
+          <mxGeometry height="14" width="14" x="873" y="773" as="geometry" />
+        </mxCell>
+        <mxCell id="ep15" edge="1" parent="1" source="CO4" style="html=1;rounded=0;jumpStyle=arc;jumpSize=8;strokeWidth=1;exitX=0.037;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;endArrow=none;labelBackgroundColor=none;fontColor=default;" target="iRem">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lb15" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontStyle=1;spacing=0;labelBackgroundColor=none;" value="IReminderScheduling" vertex="1">
+          <mxGeometry height="16" width="125" x="891" y="772" as="geometry" />
+        </mxCell>
+        <mxCell id="iNot" parent="1" style="ellipse;html=1;aspect=fixed;strokeWidth=1.2;labelBackgroundColor=none;" value="" vertex="1">
+          <mxGeometry height="14" width="14" x="1033" y="773" as="geometry" />
+        </mxCell>
+        <mxCell id="ep16" edge="1" parent="1" source="CO4" style="html=1;rounded=0;jumpStyle=arc;jumpSize=8;strokeWidth=1;exitX=0.3333;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;endArrow=none;labelBackgroundColor=none;fontColor=default;" target="iNot">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lb16" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontStyle=1;spacing=0;labelBackgroundColor=none;" value="INotificationService" vertex="1">
+          <mxGeometry height="16" width="125" x="1051" y="772" as="geometry" />
+        </mxCell>
+        <mxCell id="iRC" parent="1" style="ellipse;html=1;aspect=fixed;strokeWidth=1.2;labelBackgroundColor=none;" value="" vertex="1">
+          <mxGeometry height="14" width="14" x="1343" y="773" as="geometry" />
+        </mxCell>
+        <mxCell id="ep17" edge="1" parent="1" source="CO4" style="html=1;rounded=0;jumpStyle=arc;jumpSize=8;strokeWidth=1;exitX=0.9074;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;endArrow=none;labelBackgroundColor=none;fontColor=default;" target="iRC">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lb17" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontStyle=1;spacing=0;labelBackgroundColor=none;" value="IReminderControl" vertex="1">
+          <mxGeometry height="16" width="115" x="1225" y="772" as="geometry" />
+        </mxCell>
+        <mxCell id="iPer" parent="1" style="ellipse;html=1;aspect=fixed;strokeWidth=1.2;labelBackgroundColor=none;" value="" vertex="1">
+          <mxGeometry height="14" width="14" x="403" y="1013" as="geometry" />
+        </mxCell>
+        <mxCell id="ep18" edge="1" parent="1" source="DB" style="html=1;rounded=0;jumpStyle=arc;jumpSize=8;strokeWidth=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;endArrow=none;labelBackgroundColor=none;fontColor=default;" target="iPer">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lb18" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontStyle=1;spacing=0;labelBackgroundColor=none;" value="IPersistence" vertex="1">
+          <mxGeometry height="16" width="90" x="416" y="1031" as="geometry" />
+        </mxCell>
+        <mxCell id="iGw" parent="1" style="ellipse;html=1;aspect=fixed;strokeWidth=1.2;labelBackgroundColor=none;" value="" vertex="1">
+          <mxGeometry height="14" width="14" x="1123" y="1013" as="geometry" />
+        </mxCell>
+        <mxCell id="ep19" edge="1" parent="1" source="GW" style="html=1;rounded=0;jumpStyle=arc;jumpSize=8;strokeWidth=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;endArrow=none;labelBackgroundColor=none;fontColor=default;" target="iGw">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lb19" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontStyle=1;spacing=0;labelBackgroundColor=none;" value="IMessageGateway" vertex="1">
+          <mxGeometry height="16" width="110" x="1141" y="1012" as="geometry" />
+        </mxCell>
+        <mxCell id="e74" edge="1" parent="1" source="CO3" style="html=1;rounded=0;jumpStyle=arc;jumpSize=8;strokeWidth=1;exitX=0.9583;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=halfCircle;endFill=0;endSize=12;labelBackgroundColor=none;fontColor=default;" target="iVac">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="540" y="470" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e75" edge="1" parent="1" source="CO5" style="html=1;rounded=0;jumpStyle=arc;jumpSize=8;strokeWidth=1;exitX=0.0833;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;endArrow=halfCircle;endFill=0;endSize=12;labelBackgroundColor=none;fontColor=default;" target="iVac">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="960" y="470" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e76" edge="1" parent="1" source="CO3" style="html=1;rounded=0;jumpStyle=arc;jumpSize=8;strokeWidth=1;exitX=0.8333;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=halfCircle;endFill=0;endSize=12;labelBackgroundColor=none;fontColor=default;" target="iStat">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e77" edge="1" parent="1" source="CO3" style="html=1;rounded=0;jumpStyle=arc;jumpSize=8;strokeWidth=1;exitX=0.3542;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=halfCircle;endFill=0;endSize=12;labelBackgroundColor=none;fontColor=default;" target="iPat">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e78" edge="1" parent="1" source="CO3" style="html=1;rounded=0;jumpStyle=arc;jumpSize=8;strokeWidth=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=halfCircle;endFill=0;endSize=12;labelBackgroundColor=none;fontColor=default;" target="iRem">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="320" y="720" />
+              <mxPoint x="860" y="720" />
+              <mxPoint x="860" y="780" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e79" edge="1" parent="1" source="CO3" style="html=1;rounded=0;jumpStyle=arc;jumpSize=8;strokeWidth=1;exitX=0;exitY=0.7692;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=halfCircle;endFill=0;endSize=12;labelBackgroundColor=none;fontColor=default;" target="iPer">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="56" y="330" />
+              <mxPoint x="56" y="1020" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e80" edge="1" parent="1" source="CO2" style="html=1;rounded=0;jumpStyle=arc;jumpSize=8;strokeWidth=1;exitX=0.0364;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=halfCircle;endFill=0;endSize=12;labelBackgroundColor=none;fontColor=default;" target="iRole">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e81" edge="1" parent="1" source="CO2" style="html=1;rounded=0;jumpStyle=arc;jumpSize=8;strokeWidth=1;exitX=0.6727;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=halfCircle;endFill=0;endSize=12;labelBackgroundColor=none;fontColor=default;" target="iRem">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e82" edge="1" parent="1" source="CO2" style="html=1;rounded=0;jumpStyle=arc;jumpSize=8;strokeWidth=1;exitX=0.9636;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=halfCircle;endFill=0;endSize=12;labelBackgroundColor=none;fontColor=default;" target="iNot">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e83" edge="1" parent="1" source="CO2" style="html=1;rounded=0;jumpStyle=arc;jumpSize=8;strokeWidth=1;exitX=0.3455;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;endArrow=halfCircle;endFill=0;endSize=12;labelBackgroundColor=none;fontColor=default;" target="iPer">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="700" y="1020" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e84" edge="1" parent="1" source="CO5" style="html=1;rounded=0;jumpStyle=arc;jumpSize=8;strokeWidth=1;exitX=0.7708;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;endArrow=halfCircle;endFill=0;endSize=12;labelBackgroundColor=none;fontColor=default;" target="iPat">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1290" y="700" />
+              <mxPoint x="290" y="700" />
+              <mxPoint x="290" y="780" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e85" edge="1" parent="1" source="CO5" style="html=1;rounded=0;jumpStyle=arc;jumpSize=8;strokeWidth=1;exitX=0.8958;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=halfCircle;endFill=0;endSize=12;labelBackgroundColor=none;fontColor=default;" target="iRC">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e86" edge="1" parent="1" source="CO5" style="html=1;rounded=0;jumpStyle=arc;jumpSize=8;strokeWidth=1;exitX=0.1875;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=halfCircle;endFill=0;endSize=12;labelBackgroundColor=none;fontColor=default;" target="iStat">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1010" y="490" />
+              <mxPoint x="455" y="490" />
+              <mxPoint x="455" y="575" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e87" edge="1" parent="1" source="CO1" style="html=1;rounded=0;jumpStyle=arc;jumpSize=8;strokeWidth=1;exitX=0.6875;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=halfCircle;endFill=0;endSize=12;labelBackgroundColor=none;fontColor=default;" target="iPer">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e88" edge="1" parent="1" source="CO4" style="html=1;rounded=0;jumpStyle=arc;jumpSize=8;strokeWidth=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=halfCircle;endFill=0;endSize=12;labelBackgroundColor=none;fontColor=default;" target="iGw">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e93" edge="1" parent="1" source="CO5" style="html=1;rounded=0;jumpStyle=arc;jumpSize=8;strokeWidth=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;endArrow=halfCircle;endFill=0;endSize=12;labelBackgroundColor=none;fontColor=default;" target="iRole">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1412" y="290" />
+              <mxPoint x="1412" y="740" />
+              <mxPoint x="560" y="740" />
+              <mxPoint x="560" y="780" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e94" edge="1" parent="1" source="CO5" style="html=1;rounded=0;jumpStyle=arc;jumpSize=8;strokeWidth=1;exitX=1;exitY=0.8;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;endArrow=halfCircle;endFill=0;endSize=12;labelBackgroundColor=none;fontColor=default;" target="iPer">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1428" y="320" />
+              <mxPoint x="1428" y="980" />
+              <mxPoint x="720" y="980" />
+              <mxPoint x="720" y="1020" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e89" edge="1" parent="1" source="WEB" style="html=1;rounded=0;jumpStyle=arc;jumpSize=8;strokeWidth=1;exitX=0;exitY=0.3333;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=open;endFill=0;endSize=9;dashed=1;dashPattern=6 4;labelBackgroundColor=none;fontColor=default;" target="CO1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="20" y="70" />
+              <mxPoint x="20" y="875" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e90" edge="1" parent="1" source="WEB" style="html=1;rounded=0;jumpStyle=arc;jumpSize=8;strokeWidth=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=0.9375;entryY=0;entryDx=0;entryDy=0;endArrow=open;endFill=0;endSize=9;dashed=1;dashPattern=6 4;labelBackgroundColor=none;fontColor=default;" target="CO3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="530" y="95" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e91" edge="1" parent="1" source="WEB" style="html=1;rounded=0;jumpStyle=arc;jumpSize=8;strokeWidth=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.4182;entryY=0;entryDx=0;entryDy=0;endArrow=open;endFill=0;endSize=9;dashed=1;dashPattern=6 4;labelBackgroundColor=none;fontColor=default;" target="CO2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e92" edge="1" parent="1" source="WEB" style="html=1;rounded=0;jumpStyle=arc;jumpSize=8;strokeWidth=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.4479;entryY=0;entryDx=0;entryDy=0;endArrow=open;endFill=0;endSize=9;dashed=1;dashPattern=6 4;labelBackgroundColor=none;fontColor=default;" target="CO5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1135" y="80" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="p2" name="Interface Definitions">
+    <mxGraphModel dx="1400" dy="900" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1800" pageHeight="1047" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="t93" value="Interface definitions (operations of each provided interface)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontFamily=Helvetica;fontSize=14;fontStyle=1;fontColor=#1F2937;spacing=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="0" width="800" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="t94" value="CO1 Access Management" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontStyle=1;fontColor=#1F2937;spacing=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="40" width="500" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="n95" value="&lt;p style=&quot;margin:0;margin-top:4px;text-align:center;&quot;&gt;&lt;i style=&quot;font-size:10px&quot;&gt;«interface»&lt;/i&gt;&lt;br&gt;&lt;b&gt;IAuthentication&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0;margin-left:6px;font-size:11px;&quot;&gt;+ login(email: String, password: String): boolean&lt;br&gt;+ logout(): void&lt;br&gt;+ registerAccount(): boolean&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=12;fillColor=#FFFFFF;strokeColor=#1F2937;fontColor=#1F2937;" vertex="1" parent="1">
+          <mxGeometry x="40" y="64" width="330" height="95" as="geometry" />
+        </mxCell>
+        <mxCell id="n96" value="&lt;p style=&quot;margin:0;margin-top:4px;text-align:center;&quot;&gt;&lt;i style=&quot;font-size:10px&quot;&gt;«interface»&lt;/i&gt;&lt;br&gt;&lt;b&gt;IPatientAccess&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0;margin-left:6px;font-size:11px;&quot;&gt;+ viewHistory(): List&amp;lt;Appointment&amp;gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=12;fillColor=#FFFFFF;strokeColor=#1F2937;fontColor=#1F2937;" vertex="1" parent="1">
+          <mxGeometry x="390" y="64" width="330" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="n97" value="&lt;p style=&quot;margin:0;margin-top:4px;text-align:center;&quot;&gt;&lt;i style=&quot;font-size:10px&quot;&gt;«interface»&lt;/i&gt;&lt;br&gt;&lt;b&gt;IRoleManagement&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0;margin-left:6px;font-size:11px;&quot;&gt;+ hasPermission(permission: String): boolean&lt;br&gt;+ addPermission(permission: String): void&lt;br&gt;+ removePermission(permission: String): void&lt;br&gt;+ assignRole(user: User, role: Role): void&lt;br&gt;+ revokeRole(user: User): void&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=12;fillColor=#FFFFFF;strokeColor=#1F2937;fontColor=#1F2937;" vertex="1" parent="1">
+          <mxGeometry x="740" y="64" width="330" height="125" as="geometry" />
+        </mxCell>
+        <mxCell id="t98" value="CO2 Appointment Scheduling" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontStyle=1;fontColor=#1F2937;spacing=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="217" width="500" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="n99" value="&lt;p style=&quot;margin:0;margin-top:4px;text-align:center;&quot;&gt;&lt;i style=&quot;font-size:10px&quot;&gt;«interface»&lt;/i&gt;&lt;br&gt;&lt;b&gt;ISlotSearchAndBooking&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0;margin-left:6px;font-size:11px;&quot;&gt;+ searchSlots(vaccine: Vaccine, date: Date): List&amp;lt;AppointmentSlot&amp;gt;&lt;br&gt;+ bookAppointment(slot: AppointmentSlot): Appointment&lt;br&gt;+ isAvailable(): boolean&lt;br&gt;+ book(): boolean&lt;br&gt;+ release(): void&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=12;fillColor=#FFFFFF;strokeColor=#1F2937;fontColor=#1F2937;" vertex="1" parent="1">
+          <mxGeometry x="40" y="241" width="330" height="125" as="geometry" />
+        </mxCell>
+        <mxCell id="n100" value="&lt;p style=&quot;margin:0;margin-top:4px;text-align:center;&quot;&gt;&lt;i style=&quot;font-size:10px&quot;&gt;«interface»&lt;/i&gt;&lt;br&gt;&lt;b&gt;IAppointmentManagement&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0;margin-left:6px;font-size:11px;&quot;&gt;+ confirm(): boolean&lt;br&gt;+ reschedule(slot: AppointmentSlot): boolean&lt;br&gt;+ cancel(reason: String, role: String): Cancellation&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=12;fillColor=#FFFFFF;strokeColor=#1F2937;fontColor=#1F2937;" vertex="1" parent="1">
+          <mxGeometry x="390" y="241" width="330" height="95" as="geometry" />
+        </mxCell>
+        <mxCell id="n101" value="&lt;p style=&quot;margin:0;margin-top:4px;text-align:center;&quot;&gt;&lt;i style=&quot;font-size:10px&quot;&gt;«interface»&lt;/i&gt;&lt;br&gt;&lt;b&gt;IWaitlistManagement&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0;margin-left:6px;font-size:11px;&quot;&gt;+ join(newPatient: Patient): boolean&lt;br&gt;+ leave(newPatient: Patient): boolean&lt;br&gt;+ getNext(): Patient&lt;br&gt;+ notifyWaitlist(): void&lt;br&gt;+ isEmpty(): boolean&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=12;fillColor=#FFFFFF;strokeColor=#1F2937;fontColor=#1F2937;" vertex="1" parent="1">
+          <mxGeometry x="740" y="241" width="330" height="125" as="geometry" />
+        </mxCell>
+        <mxCell id="n102" value="&lt;p style=&quot;margin:0;margin-top:4px;text-align:center;&quot;&gt;&lt;i style=&quot;font-size:10px&quot;&gt;«interface»&lt;/i&gt;&lt;br&gt;&lt;b&gt;IAppointmentStatus&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0;margin-left:6px;font-size:11px;&quot;&gt;+ getStatus(): String&lt;br&gt;+ markCompleted(): void&lt;br&gt;+ markDeferred(): void&lt;br&gt;+ markMissed(staff: ClinicStaff): void&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=12;fillColor=#FFFFFF;strokeColor=#1F2937;fontColor=#1F2937;" vertex="1" parent="1">
+          <mxGeometry x="1090" y="241" width="330" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="n103" value="&lt;p style=&quot;margin:0;margin-top:4px;text-align:center;&quot;&gt;&lt;i style=&quot;font-size:10px&quot;&gt;«interface»&lt;/i&gt;&lt;br&gt;&lt;b&gt;IVaccineSchedule&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0;margin-left:6px;font-size:11px;&quot;&gt;+ nextDueDate(last: Date): Date&lt;br&gt;+ getRequiredInterval(doseNumber: int): int&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=12;fillColor=#FFFFFF;strokeColor=#1F2937;fontColor=#1F2937;" vertex="1" parent="1">
+          <mxGeometry x="1440" y="241" width="330" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="t104" value="CO3 Clinical Care" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontStyle=1;fontColor=#1F2937;spacing=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="394" width="500" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="n105" value="&lt;p style=&quot;margin:0;margin-top:4px;text-align:center;&quot;&gt;&lt;i style=&quot;font-size:10px&quot;&gt;«interface»&lt;/i&gt;&lt;br&gt;&lt;b&gt;IEligibilityCheck&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0;margin-left:6px;font-size:11px;&quot;&gt;+ checkEligibility(patient: Patient, vaccine: Vaccine): boolean&lt;br&gt;+ hasContraindication(patient: Patient, vaccine: Vaccine): boolean&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=12;fillColor=#FFFFFF;strokeColor=#1F2937;fontColor=#1F2937;" vertex="1" parent="1">
+          <mxGeometry x="40" y="418" width="330" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="n106" value="&lt;p style=&quot;margin:0;margin-top:4px;text-align:center;&quot;&gt;&lt;i style=&quot;font-size:10px&quot;&gt;«interface»&lt;/i&gt;&lt;br&gt;&lt;b&gt;IDoseRecording&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0;margin-left:6px;font-size:11px;&quot;&gt;+ record(batchNo: String, site: String): void&lt;br&gt;+ getDoseDetails(): String&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=12;fillColor=#FFFFFF;strokeColor=#1F2937;fontColor=#1F2937;" vertex="1" parent="1">
+          <mxGeometry x="390" y="418" width="330" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="n107" value="&lt;p style=&quot;margin:0;margin-top:4px;text-align:center;&quot;&gt;&lt;i style=&quot;font-size:10px&quot;&gt;«interface»&lt;/i&gt;&lt;br&gt;&lt;b&gt;IClinicalRecords&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0;margin-left:6px;font-size:11px;&quot;&gt;+ appliesTo(vaccine: Vaccine): boolean&lt;br&gt;+ deactivate(): void&lt;br&gt;+ recordDeferral(reason: String): void&lt;br&gt;+ isRefusal(): boolean&lt;br&gt;+ isSevere(): boolean&lt;br&gt;+ recordAction(action: String): void&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=12;fillColor=#FFFFFF;strokeColor=#1F2937;fontColor=#1F2937;" vertex="1" parent="1">
+          <mxGeometry x="740" y="418" width="330" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="t108" value="CO4 Notification and Reminders" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontStyle=1;fontColor=#1F2937;spacing=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="586" width="500" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="n109" value="&lt;p style=&quot;margin:0;margin-top:4px;text-align:center;&quot;&gt;&lt;i style=&quot;font-size:10px&quot;&gt;«interface»&lt;/i&gt;&lt;br&gt;&lt;b&gt;INotificationService&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0;margin-left:6px;font-size:11px;&quot;&gt;+ send(): boolean&lt;br&gt;+ retry(): boolean&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=12;fillColor=#FFFFFF;strokeColor=#1F2937;fontColor=#1F2937;" vertex="1" parent="1">
+          <mxGeometry x="40" y="610" width="330" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="n110" value="&lt;p style=&quot;margin:0;margin-top:4px;text-align:center;&quot;&gt;&lt;i style=&quot;font-size:10px&quot;&gt;«interface»&lt;/i&gt;&lt;br&gt;&lt;b&gt;IReminderScheduling&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0;margin-left:6px;font-size:11px;&quot;&gt;+ schedule(appointment: Appointment): void&lt;br&gt;+ cancel(): void&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=12;fillColor=#FFFFFF;strokeColor=#1F2937;fontColor=#1F2937;" vertex="1" parent="1">
+          <mxGeometry x="390" y="610" width="330" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="n111" value="&lt;p style=&quot;margin:0;margin-top:4px;text-align:center;&quot;&gt;&lt;i style=&quot;font-size:10px&quot;&gt;«interface»&lt;/i&gt;&lt;br&gt;&lt;b&gt;IReminderControl&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0;margin-left:6px;font-size:11px;&quot;&gt;+ cancel(): void&lt;br&gt;+ isCancelled(): boolean&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=12;fillColor=#FFFFFF;strokeColor=#1F2937;fontColor=#1F2937;" vertex="1" parent="1">
+          <mxGeometry x="740" y="610" width="330" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="t112" value="CO5 Follow-up and Reporting" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontStyle=1;fontColor=#1F2937;spacing=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="718" width="500" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="n113" value="&lt;p style=&quot;margin:0;margin-top:4px;text-align:center;&quot;&gt;&lt;i style=&quot;font-size:10px&quot;&gt;«interface»&lt;/i&gt;&lt;br&gt;&lt;b&gt;IDashboardView&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0;margin-left:6px;font-size:11px;&quot;&gt;+ load(): List&amp;lt;Appointment&amp;gt;&lt;br&gt;+ filterByTime(start: Time, end: Time): List&amp;lt;Appointment&amp;gt;&lt;br&gt;+ filterByVaccine(vaccineType: String): List&amp;lt;Appointment&amp;gt;&lt;br&gt;+ filterByPatientName(name: String): List&amp;lt;Appointment&amp;gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=12;fillColor=#FFFFFF;strokeColor=#1F2937;fontColor=#1F2937;" vertex="1" parent="1">
+          <mxGeometry x="40" y="742" width="330" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="n114" value="&lt;p style=&quot;margin:0;margin-top:4px;text-align:center;&quot;&gt;&lt;i style=&quot;font-size:10px&quot;&gt;«interface»&lt;/i&gt;&lt;br&gt;&lt;b&gt;IClinicReporting&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0;margin-left:6px;font-size:11px;&quot;&gt;+ generate(start: Date, end: Date): void&lt;br&gt;+ getOverduePatients(): List&amp;lt;Patient&amp;gt;&lt;br&gt;+ getSummary(): String&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=12;fillColor=#FFFFFF;strokeColor=#1F2937;fontColor=#1F2937;" vertex="1" parent="1">
+          <mxGeometry x="390" y="742" width="330" height="95" as="geometry" />
+        </mxCell>
+        <mxCell id="n115" value="&lt;p style=&quot;margin:0;margin-top:4px;text-align:center;&quot;&gt;&lt;i style=&quot;font-size:10px&quot;&gt;«interface»&lt;/i&gt;&lt;br&gt;&lt;b&gt;IOverdueFlagManagement&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0;margin-left:6px;font-size:11px;&quot;&gt;+ isActive(): boolean&lt;br&gt;+ override(staff: ClinicStaff, reason: String): void&lt;br&gt;+ resolve(): void&lt;br&gt;+ cancelPendingReminder(): void&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=12;fillColor=#FFFFFF;strokeColor=#1F2937;fontColor=#1F2937;" vertex="1" parent="1">
+          <mxGeometry x="740" y="742" width="330" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="t116" value="External services" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontStyle=1;fontColor=#1F2937;spacing=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="880" width="500" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="n117" value="&lt;p style=&quot;margin:0;margin-top:4px;text-align:center;&quot;&gt;&lt;i style=&quot;font-size:10px&quot;&gt;«interface»&lt;/i&gt;&lt;br&gt;&lt;b&gt;IPersistence&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0;margin-left:6px;font-size:11px;&quot;&gt;+ save(entityType: String, entity: Object): void&lt;br&gt;+ findById(entityType: String, id: int): Object&lt;br&gt;+ query(entityType: String, criteria: String): List&amp;lt;Object&amp;gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=12;fillColor=#FFFFFF;strokeColor=#1F2937;fontColor=#1F2937;" vertex="1" parent="1">
+          <mxGeometry x="40" y="904" width="330" height="95" as="geometry" />
+        </mxCell>
+        <mxCell id="n118" value="&lt;p style=&quot;margin:0;margin-top:4px;text-align:center;&quot;&gt;&lt;i style=&quot;font-size:10px&quot;&gt;«interface»&lt;/i&gt;&lt;br&gt;&lt;b&gt;IMessageGateway&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0;margin-left:6px;font-size:11px;&quot;&gt;+ deliver(address: String, message: String): boolean&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=12;fillColor=#FFFFFF;strokeColor=#1F2937;fontColor=#1F2937;" vertex="1" parent="1">
+          <mxGeometry x="390" y="904" width="330" height="65" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
